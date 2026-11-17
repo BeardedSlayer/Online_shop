@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__items">
+            <div class="header__logo">
+            </div>
+            <div class="header__cart">
+                <button class="header__cart-btn" type="button">В корзину <span class="header__cart-count">0</span></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="catalog">
+        <div class="catalog__controls">
+            <label for="catalog">Поиск ноутбука</label>
+            <input id="catalog" class="catalog__search" type="text">
+
+            <div class="catalog__filters">
+                <button class="catalog__filter-btn catalog__filter-btn--active" data-category="all" type="submit">Все</button>
+                <button class="catalog__filter-btn" data-category="Игровые" type="button">Игровые</button>
+                <button class="catalog__filter-btn" data-category="Ультрабуки" type="button">Ультрабуки</button>
+                <button class="catalog__filter-btn" data-category="Для работы" type="button">Для работы</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="product-cards"></div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+
+    </div>
+</footer>
+
+
+<div class="cart-overlay"></div>
+<aside class="cart-drawer">
+    <header class="cart-drawer__header">
+        <h2 class="cart-drawer__title">Корзина</h2>
+        <button class="cart-drawer__btn" type="button">×</button>
+    </header>
+
+    <div class="cart-drawer__item"></div>
+
+    <footer class="cart-drawer__footer">
+        <div class="cart-drawer__count"></div>
+        <form class="cart-drawer__form">
+            <input type="text" class="cart-drawer__input" id="customer-name" placeholder="Ваше имя" required>
+            <input type="tel" class="cart-drawer__input" id="customer-phone" placeholder="Ваш телефон" required>
+            <button class="cart-drawer__order" type="submit">Перейти к оформлению</button>
+        </form>
+    </footer>
+</aside>
+
+<script src="main.js"></script>
+
+</body>
+</html>

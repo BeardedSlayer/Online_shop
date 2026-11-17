@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "Игровые",
+    "title": "Игровой ноутбук Pro 15\"",
+    "imgSrc": "laptop.png",
+    "oldPrice": 2990,
+    "price": 2400,
+    "badge": "-20%",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "category": "Ультрабуки",
+    "title": "Ультрабук Air 13\"",
+    "imgSrc": "laptop.png",
+    "oldPrice": 1890,
+    "price": 1590,
+    "badge": "-16%",
+    "stock": 12
+  },
+  {
+    "id": 3,
+    "category": "Для работы",
+    "title": "Ноутбук для работы Office 14\"",
+    "imgSrc": "laptop.png",
+    "oldPrice": 1450,
+    "price": 1290,
+    "badge": "-11%",
+    "stock": 8
+  },
+  {
+    "id": 4,
+    "category": "Игровые",
+    "title": "Игровой ноутбук Ultra 17\"",
+    "imgSrc": "laptop.png",
+    "oldPrice": 4490,
+    "price": 3990,
+    "badge": "-11%",
+    "stock": 3
+  },
+  {
+    "id": 5,
+    "category": "Для работы",
+    "title": "Компактный ноутбук Student 12\"",
+    "imgSrc": "laptop.png",
+    "oldPrice": 990,
+    "price": 790,
+    "badge": "-20%",
+    "stock": 20
+  },
+  {
+    "id": 6,
+    "category": "Для работы",
+    "title": "Ноутбук Creator 16\"",
+    "imgSrc": "laptop.png",
+    "oldPrice": 3590,
+    "price": 3190,
+    "badge": "-11%",
+    "stock": 0
+  }
+]
